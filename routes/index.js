@@ -1,7 +1,8 @@
 const routes = require('express').Router();
+const lesson1controller = require('../controllers/lesson1');
 
-const baseController = require('../controllers');
-
-routes.get('/', baseController.getName);
+routes.get('/', lesson1controller.johnathonroute); 
+routes.get('/angela', lesson1controller.angelaroute);
+routes.get('/rebekah', lesson1controller.rebekahroute);
 
 module.exports = routes;
