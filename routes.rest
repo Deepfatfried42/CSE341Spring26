@@ -7,3 +7,13 @@ GET http://localhost:8080/contacts/6a0873d016b887feb008f064
 GET http://localhost:8080/contacts/6a0873f416b887feb008f065
 ###
 GET http://localhost:8080/contacts/6a08740c16b887feb008f066
+
+// PRODUCTION
+###
+GET https://cse341spring26-dssn.onrender.com/contacts
+###
+GET https://cse341spring26-dssn.onrender.com/contacts/6a0873d016b887feb008f064
+###
+GET https://cse341spring26-dssn.onrender.com/contacts/6a0873f416b887feb008f065
+###
+GET https://cse341spring26-dssn.onrender.com/contacts/6a08740c16b887feb008f066
