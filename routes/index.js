@@ -1,8 +1,10 @@
-const routes = require('express').Router();
-const lesson1controller = require('../controllers/lesson1');
+const express = require('express');
+const router = express.Router();
+//const routes = require('express').Router();
 
-routes.get('/', lesson1controller.johnathonroute); 
-routes.get('/angela', lesson1controller.angelaroute);
-routes.get('/rebekah', lesson1controller.rebekahroute);
+router.use('/contacts', require('./contacts'))
+//const baseController = require('../controllers');
 
-module.exports = routes;
+//routes.get('/', baseController.getName);
+//module.exports = routes;
+module.exports = router;
