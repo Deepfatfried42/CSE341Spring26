@@ -31,7 +31,7 @@ content-type: application/json
     "birthday": "01/01/2027"
 }
 ### delete contact
-DELETE http://localhost:8080/contacts/6a0b52afb4670dd843d0689d HTTP/1.1
+DELETE http://localhost:8080/contacts/6a0bb610cef4b8dd0fe07cee HTTP/1.1
 content-type: application/json
 
 // PRODUCTION
@@ -66,5 +66,5 @@ content-type: application/json
     "birthday": "01/01/2027"
 }
 ###
-DELETE https://cse341spring26-dssn.onrender.com/contacts/6a0b92e3cf809a637549e214 HTTP/1.1
+DELETE https://cse341spring26-dssn.onrender.com/contacts/6a0bb684a3b5a7630fb99130 HTTP/1.1
 content-type: application/json

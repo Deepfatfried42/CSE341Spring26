@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 //const routes = require('express').Router();
 
+router.use('/', require('./swagger'));
 router.use('/contacts', require('./contacts'));
 //const baseController = require('../controllers');
 
